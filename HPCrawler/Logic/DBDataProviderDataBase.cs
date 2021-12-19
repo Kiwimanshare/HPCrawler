@@ -17,10 +17,10 @@ namespace HPCrawler
         private string ConectionSting;
         private Dictionary<string, SqlDataAdapter> AdapterDict;
 
-        public string UserID { get; set; }
-        public string UserPW { get; set; }
-        public string Database { get; set; }
-        public string Server { get; set; }
+        private string UserID;
+        private string UserPW;
+        private string Database;
+        private string Server;
 
         public DBDataProvider(string ConectionString)
         {

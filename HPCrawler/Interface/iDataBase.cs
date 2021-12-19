@@ -10,10 +10,10 @@ namespace HPCrawler
 {
     interface iDataBase
     {
-        string UserID { get; set;  }
-        string UserPW { get; set; }
-        string Database { get; set; }
-        string Server { get; set; }
+        //string UserID { get; set;  }
+        //string UserPW { get; set; }
+        //string Database { get; set; }
+        //string Server { get; set; }
 
 
         //void SetConnectionString();
